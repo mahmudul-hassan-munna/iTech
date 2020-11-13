@@ -103,6 +103,8 @@ class TestController extends Controller
 
     public function recordTransfer()
     {
+    	Record::truncate();
+    	
         $json = Storage::disk('public')->get('records.json');
         $data = json_decode($json, true);
 
