@@ -4,6 +4,8 @@
 /storage/framework/*
 /storage/logs/*
 /vendor
+
+.idea/
 .env.backup
 .phpunit.result.cache
 Homestead.json

@@ -52,7 +52,7 @@ CREATE TABLE `pen_taken` (
   `buyer_id` int(5) DEFAULT NULL,
   `amount` int(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pen_taken
@@ -82,7 +82,7 @@ CREATE TABLE `diary_taken` (
   `buyer_id` int(5) DEFAULT NULL,
   `amount` int(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of diary_taken
@@ -109,7 +109,7 @@ CREATE TABLE `eraser_taken` (
   `buyer_id` int(5) DEFAULT NULL,
   `amount` int(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of eraser_taken
@@ -138,7 +138,7 @@ CREATE TABLE `buyers` (
   `name` varchar(100) DEFAULT NULL,
   `status` enum('Active','Incative') DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of buyers

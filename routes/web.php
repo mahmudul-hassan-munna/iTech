@@ -18,5 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/i-m-funny', 'TestController@iMFunny');
+Route::get('/second-buyer-eloquent', 'TestController@secondBuyerEloquent');
+Route::get('/purchase-list-eloquent', 'TestController@purchaseList');
+Route::get('/record-transfer', 'TestController@recordTransfer');
+
+
 
 
