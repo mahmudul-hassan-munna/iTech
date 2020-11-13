@@ -13,7 +13,7 @@ div {
 
 @keyframes myfirst {
   0%   {background: red; left: 0px; top: 0px;}
-  50%  {background: blue; left: 100%; bottom: 500px;}
+  50%  {background: blue; left: 100%; top: 600px;}
   100% {background: red; left: 0px; top: 0px;}
 }
 </style>
