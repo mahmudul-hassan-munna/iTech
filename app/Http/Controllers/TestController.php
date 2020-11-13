@@ -113,6 +113,38 @@ class TestController extends Controller
         return "Record is successfully transferred";
     }
 
+    public function defineCallbackJs()
+    {
+        return view('define_callback');
+    }
+
+    public function sortJs()
+    {
+    	return view('sort_array');
+    }
+
+    public function foreachJs()
+    {
+    	return view('foreach_js');
+    }
+    
+    public function filterJs()
+    {
+    	return view('filter_js');
+    }
+    
+    public function mapJs()
+    {
+    	return view('map_js');
+    }
+    
+    public function reduceJs()
+    {
+    	return view('reduce_js');
+    }
+
+    
+
 
 
 }

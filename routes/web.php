@@ -22,6 +22,17 @@ Route::get('/second-buyer-eloquent', 'TestController@secondBuyerEloquent');
 Route::get('/purchase-list-eloquent', 'TestController@purchaseList');
 Route::get('/record-transfer', 'TestController@recordTransfer');
 
+Route::get('/define-callback-js', 'TestController@defineCallbackJs');
+
+Route::get('/sort-js', 'TestController@sortJs');
+Route::get('/foreach-js', 'TestController@foreachJs');
+Route::get('/filter-js', 'TestController@filterJs');
+Route::get('/map-js', 'TestController@mapJs');
+Route::get('/reduce-js', 'TestController@reduceJs');
+
+
+
+
 
 
 
