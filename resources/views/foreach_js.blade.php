@@ -7,12 +7,12 @@
 <p id="demo"></p>
 
 <script>
-var fruits = ["apple", "orange", "cherry"];
-fruits.forEach(myFunction);
+    var fruits = ["apple", "orange", "cherry"];
+    fruits.forEach(myFunction);
 
-function myFunction(item, index) {
-  document.getElementById("demo").innerHTML += index + ":" + item + "<br>"; 
-}
+    function myFunction(item, index) {
+        document.getElementById("demo").innerHTML += index + ":" + item + "<br>";
+    }
 </script>
 
 </body>

@@ -9,12 +9,12 @@
 <p id="demo"></p>
 
 <script>
-var numbers = [4, 9, 16, 25];
+    var numbers = [4, 9, 16, 25];
 
-function myFunction() {
-  x = document.getElementById("demo")
-  x.innerHTML = numbers.map(Math.sqrt);
-}
+    function myFunction() {
+        x = document.getElementById("demo")
+        x.innerHTML = numbers.map(Math.sqrt);
+    }
 </script>
 
 </body>

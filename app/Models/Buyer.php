@@ -8,17 +8,17 @@ class Buyer extends Model
 {
     public function diaries()
     {
-    	return $this->hasMany('App\Models\DiaryTaken');
+        return $this->hasMany('App\Models\DiaryTaken');
     }
 
     public function erasers()
     {
-    	return $this->hasMany('App\Models\EraserTaken');
+        return $this->hasMany('App\Models\EraserTaken');
     }
 
     public function pens()
     {
-    	return $this->hasMany('App\Models\PenTaken');
+        return $this->hasMany('App\Models\PenTaken');
     }
 
 }

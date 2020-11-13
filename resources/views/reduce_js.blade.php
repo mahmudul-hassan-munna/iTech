@@ -7,13 +7,13 @@
 <p id="demo"></p>
 
 <script>
-var numbers = [175, 50, 25];
+    var numbers = [175, 50, 25];
 
-document.getElementById("demo").innerHTML = numbers.reduce(myFunc);
+    document.getElementById("demo").innerHTML = numbers.reduce(myFunc);
 
-function myFunc(total, num) {
-  return total - num;
-}
+    function myFunc(total, num) {
+        return total - num;
+    }
 </script>
 
 </body>
