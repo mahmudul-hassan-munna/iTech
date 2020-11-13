@@ -19,7 +19,9 @@ Route::get('/', function () {
 
 Route::get('/i-m-funny', 'TestController@iMFunny');
 Route::get('/second-buyer-eloquent', 'TestController@secondBuyerEloquent');
+Route::get('/second-buyer-no-eloquent', 'TestController@secondBuyerNoEloquent');
 Route::get('/purchase-list-eloquent', 'TestController@purchaseList');
+Route::get('/purchase-list-no-eloquent', 'TestController@purchaseListNoEloquent');
 Route::get('/record-transfer', 'TestController@recordTransfer');
 
 Route::get('/define-callback-js', 'TestController@defineCallbackJs');
