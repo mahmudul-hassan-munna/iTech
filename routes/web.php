@@ -29,6 +29,7 @@ Route::get('/foreach-js', 'TestController@foreachJs');
 Route::get('/filter-js', 'TestController@filterJs');
 Route::get('/map-js', 'TestController@mapJs');
 Route::get('/reduce-js', 'TestController@reduceJs');
+Route::get('/animation', 'TestController@animation');
 
 
 

@@ -142,6 +142,11 @@ class TestController extends Controller
     {
     	return view('reduce_js');
     }
+    
+    public function animation()
+    {
+    	return view('animation');
+    }
 
     
 
